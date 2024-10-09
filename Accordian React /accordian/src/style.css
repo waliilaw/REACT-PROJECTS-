@@ -1,0 +1,52 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.acc-wrapper {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(75, 69, 109, 0.9);
+}
+
+.accordian {
+  margin-top: 1rem;
+}
+
+.item {
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.title:hover {
+  background-color: #e0e0e0;
+}
+
+.acc-content {
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.acc-wrapper button{
+background-color:rgb(178, 98, 239);
+height :50px
+}
