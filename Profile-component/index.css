@@ -1,0 +1,36 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(99, 40, 40);
+  }
+  
+  .profile-pic {
+    width: 100px; /* Set desired width */
+    height: 100px; /* Set desired height */
+    border-radius: 50%; /* Make it a circle */
+  }
+  
+  .location {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .stat {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .stat-value {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
